@@ -15,6 +15,20 @@ This repository contains my personal configuration files used for my web develop
 - **Version-Controlled Configuration**: – Easily reproducible environment setup across systems
 - **Security-Conscious Defaults**: – Hardened settings for cybersecurity work when applicable
 
+## Extensions
+
+- **App menu is back**: – Restores the classic top-bar application menu.
+- **Blur my Shell**: – Adds background blur to panels and overview.
+- **Burn My Windows**: – Dramatic window open/close animations.
+- **Coverflow Alt-Tab**: – macOS-style 3D window switcher.
+- **Dash2Dock Animated**: – Smooth, customizable animated dock.
+- **Search Light**: – Enhanced GNOME search with better results.
+- **TempTracker**: – Real-time CPU/GPU temperature monitor.
+- **User Themes**: – Enables custom shell themes from the user directory.
+- **Gnome 4x UI Improvements**: – Polishes and tweaks for the default interface.
+- **Compiz windows effect**: – Classic Compiz animations (wobbly windows, cube).
+- **Compiz alike magic lamp effect**: – Iconic "magic lamp" minimization effect.
+
 ## Environment
 
 - **Operating System**: Ubuntu 24.04.3 LTS x86_64
