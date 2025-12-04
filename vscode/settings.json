@@ -1,0 +1,68 @@
+{
+    "window.title": "${dirty}${activeEditorShort}",
+    "editor.smoothScrolling": true,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "files.autoSave": "afterDelay",
+
+    "git.enabled": true,
+    "editor.codeLens": true,
+    "breadcrumbs.enabled": false,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "git.decorations.enabled": true,
+
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "all",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    
+    "editor.tabSize": 4,
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "window.customTitleBarVisibility": "windowed",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.commandCenter.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.showTabs": "none",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+    /** --------------- VS Code Extensions Settings -------------- **/
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+
+    "vscode-pets.petSize": "small",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.throwBallWithMouse": true,
+
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    /** ------------ Visual Studio Code Customization ------------ **/
+    "vscode_custom_css.imports": [
+        "file:///home/osorex/.vscode/custom-vscode.css",
+        "file:///home/osorex/.vscode/custom-vscode.js",
+    ],
+}
