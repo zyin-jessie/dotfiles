@@ -3,17 +3,13 @@
     "editor.smoothScrolling": true,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
-
-    "github.copilot.nextEditSuggestions.enabled": false,
     "files.autoSave": "afterDelay",
 
     "git.enabled": true,
     "editor.codeLens": true,
-    "breadcrumbs.enabled": false,
     "editor.hover.delay": 1500,
-    "editor.hover.enabled": true,
+    "editor.hover.enabled": "on",
     "editor.matchBrackets": "never",
-    "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": true,
 
@@ -33,18 +29,18 @@
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     
-    "editor.tabSize": 4,
-    "window.commandCenter": false,
+    "editor.tabSize": 2,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.location": "bottom",
     "window.customTitleBarVisibility": "windowed",
-    "workbench.editor.editorActionsLocation": "hidden",
-    "chat.commandCenter.enabled": false,
-    "workbench.statusBar.visible": false,
     "editor.stickyScroll.enabled": false,
-    "workbench.navigationControl.enabled": false,
+    
+    /** ------------------ Window / UI Settings ------------------ **/
+    "workbench.tips.enabled": false,
     "workbench.editor.showTabs": "none",
-    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
 
@@ -57,12 +53,33 @@
     "vscode-pets.theme": "forest",
     "vscode-pets.throwBallWithMouse": true,
 
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "chat.commandCenter.enabled": false,
+
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
-    
+
+    /** --------------- Breadcrumbs Configurations --------------- **/
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.filePath": "on",
+
+    /** ----------------- Terminal Configurations ---------------- **/
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true,
+
     /** ------------ Visual Studio Code Customization ------------ **/
     "vscode_custom_css.imports": [
         "file:///home/osorex/.vscode/custom-vscode.css",
-        "file:///home/osorex/.vscode/custom-vscode.js",
+        "file:///home/osorex/.vscode/custom-vscode.js"
     ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
