@@ -13,7 +13,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
-# zinit light zsh-users/zsh-autosuggestions          # Uncomment to enable autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # Load Completions
@@ -34,7 +33,7 @@ SAVEHIST=$HISTSIZE
 HISTDUP=erase
 
 setopt appendhistory
-setopt sharehistory                                  # Allows you to share history accross zshell session
+setopt sharehistory
 setopt hist_ignore_space
 setopt hist_ignore_all_dups
 setopt hist_save_no_dups
@@ -52,6 +51,5 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
