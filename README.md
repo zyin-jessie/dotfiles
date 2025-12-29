@@ -43,6 +43,7 @@ This repository contains my personal configuration files used for my web develop
 ├── _public/      # Static assets
 ├── kitty/        # Configuration and theme files for the Kitty terminal emulator
 ├── tmux/         # Tmux configuration files, scripts, and session setups
+├── vim/          # Configuration file and custom setups for the Vim text editor
 ├── vscode/       # Visual Studio Code settings, extensions, and editor configuration
 ├── zsh/          # Zsh shell configuration, aliases, plugins, and custom functions
 ```
